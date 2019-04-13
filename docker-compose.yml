@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  tictactoe:
+    image: tictactoe
+    ports:
+      - "80:80"
+    build:
+      context: ./
+      dockerfile: Dockerfile      
+
+    networks:
+      - tictactoe
+networks: 
+  tictactoe: 
+    driver: bridge
