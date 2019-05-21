@@ -103,8 +103,8 @@ namespace TicTacToe
 
             #region == Check final without a winner ==
             if(positions[1] != '1' && positions[2] != '2' && positions[3] != '3' && positions[4] != '4'
-            && positions[5] != '5' && positions[6] != '6' && positions[7] != '7' & positions[8] != '8'
-            & positions[9] != '9')
+            && positions[5] != '5' && positions[6] != '6' && positions[7] != '7' && positions[8] != '8'
+           && positions[9] != '9')
             {
                 return 2;
             }
